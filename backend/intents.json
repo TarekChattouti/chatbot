@@ -1,0 +1,373 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Hello",
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "What's up?",
+        "How's it going?",
+        "Greetings",
+        "Howdy"
+      ],
+      "responses": [
+        "Hello!",
+        "Hi there!",
+        "Hey!",
+        "Hi! How can I assist you today?",
+        "Good day! How can I help you?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Take care",
+        "Catch you later",
+        "Farewell",
+        "See you soon"
+      ],
+      "responses": [
+        "Goodbye!",
+        "See you later!",
+        "Take care!",
+        "Have a great day!",
+        "Catch you later!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thank you",
+        "Thanks",
+        "Thanks a lot",
+        "Much appreciated",
+        "Thanks so much",
+        "I appreciate it"
+      ],
+      "responses": [
+        "You're welcome!",
+        "No problem!",
+        "My pleasure!",
+        "Anytime!",
+        "Happy to help!"
+      ]
+    },
+    {
+      "tag": "affirmation",
+      "patterns": [
+        "Yes",
+        "Sure",
+        "Absolutely",
+        "Definitely",
+        "Of course",
+        "Right",
+        "Correct"
+      ],
+      "responses": [
+        "Great!",
+        "Alright!",
+        "Got it!",
+        "Yes, indeed!",
+        "Absolutely!"
+      ]
+    },
+    {
+      "tag": "negation",
+      "patterns": [
+        "No",
+        "Nope",
+        "Nah",
+        "Not really",
+        "I don't think so"
+      ],
+      "responses": [
+        "Alright",
+        "Okay",
+        "Got it",
+        "Understood",
+        "No worries"
+      ]
+    },
+    {
+      "tag": "small_talk_weather",
+      "patterns": [
+        "How's the weather?",
+        "What's the weather like?",
+        "Is it sunny?",
+        "Is it raining?",
+        "How's the weather today?",
+        "Weather forecast"
+      ],
+      "responses": [
+        "It's sunny today!",
+        "Looks like it's going to rain.",
+        "It's a bit cloudy right now.",
+        "The weather is quite nice.",
+        "Expect some rain later today."
+      ]
+    },
+    {
+      "tag": "small_talk_age",
+      "patterns": [
+        "How old are you?",
+        "What's your age?",
+        "Tell me your age",
+        "Are you old?",
+        "Are you young?"
+      ],
+      "responses": [
+        "I'm as old as the internet!",
+        "Age is just a number.",
+        "I'm timeless.",
+        "I'm a digital entity, ageless."
+      ]
+    },
+    {
+      "tag": "small_talk_name",
+      "patterns": [
+        "What's your name?",
+        "Who are you?",
+        "Tell me your name",
+        "Do you have a name?"
+      ],
+      "responses": [
+        "I'm ChatBot.",
+        "You can call me ChatBot.",
+        "I'm your friendly assistant, ChatBot."
+      ]
+    },
+    {
+      "tag": "small_talk_hobby",
+      "patterns": [
+        "What are your hobbies?",
+        "What do you like to do?",
+        "What's your favorite pastime?",
+        "Do you have any hobbies?"
+      ],
+      "responses": [
+        "I love chatting with people!",
+        "I enjoy learning new things.",
+        "Helping people is my favorite thing to do."
+      ]
+    },
+    {
+      "tag": "small_talk_food",
+      "patterns": [
+        "What's your favorite food?",
+        "Do you eat?",
+        "What's your favorite cuisine?",
+        "Do you have a favorite dish?"
+      ],
+      "responses": [
+        "I don't eat, but I hear pizza is amazing!",
+        "I don't have a need for food, but I love learning about different cuisines.",
+        "Food is fascinating! Tell me about your favorites."
+      ]
+    },
+    {
+      "tag": "small_talk_music",
+      "patterns": [
+        "What's your favorite music?",
+        "Do you like music?",
+        "What's your favorite song?",
+        "Do you have a favorite band?"
+      ],
+      "responses": [
+        "I enjoy all types of music.",
+        "Music is a wonderful form of expression.",
+        "I love learning about different genres and artists."
+      ]
+    },
+    {
+      "tag": "small_talk_books",
+      "patterns": [
+        "Do you read books?",
+        "What's your favorite book?",
+        "Do you have a favorite author?",
+        "What kind of books do you like?"
+      ],
+      "responses": [
+        "I enjoy learning about different books.",
+        "Books are a great source of knowledge.",
+        "I love hearing about people's favorite books."
+      ]
+    },
+    {
+      "tag": "small_talk_movies",
+      "patterns": [
+        "What's your favorite movie?",
+        "Do you watch movies?",
+        "What's your favorite genre of movies?",
+        "Do you like watching films?"
+      ],
+      "responses": [
+        "I enjoy learning about different movies.",
+        "Movies are a great form of storytelling.",
+        "Tell me about your favorite movies."
+      ]
+    },
+    {
+      "tag": "small_talk_travel",
+      "patterns": [
+        "Do you like to travel?",
+        "What's your favorite travel destination?",
+        "Do you have a dream vacation spot?",
+        "Where do you like to go on vacation?"
+      ],
+      "responses": [
+        "I love learning about different places.",
+        "Traveling sounds amazing!",
+        "Tell me about your favorite travel destinations."
+      ]
+    },
+    {
+      "tag": "small_talk_sports",
+      "patterns": [
+        "Do you like sports?",
+        "What's your favorite sport?",
+        "Do you have a favorite team?",
+        "Do you watch sports?"
+      ],
+      "responses": [
+        "Sports are exciting!",
+        "I enjoy learning about different sports and teams.",
+        "Tell me about your favorite sports."
+      ]
+    },
+    {
+      "tag": "small_talk_pets",
+      "patterns": [
+        "Do you have pets?",
+        "What's your favorite animal?",
+        "Do you like dogs or cats?",
+        "Tell me about your pets."
+      ],
+      "responses": [
+        "I love learning about different animals.",
+        "Pets are wonderful companions.",
+        "Tell me about your pets!"
+      ]
+    },
+    {
+      "tag": "small_talk_technology",
+      "patterns": [
+        "Do you like technology?",
+        "What's your favorite gadget?",
+        "Do you know about the latest tech?",
+        "Tell me about new technologies."
+      ],
+      "responses": [
+        "I love technology!",
+        "Technology is constantly evolving and fascinating.",
+        "Tell me about your favorite gadgets."
+      ]
+    },
+    {
+      "tag": "small_talk_jokes",
+      "patterns": [
+        "Tell me a joke",
+        "Do you know any jokes?",
+        "Make me laugh",
+        "I need a joke"
+      ],
+      "responses": [
+        "Why don't scientists trust atoms? Because they make up everything!",
+        "Why was the math book sad? Because it had too many problems.",
+        "What do you call fake spaghetti? An impasta!"
+      ]
+    },
+    {
+      "tag": "small_talk_compliments",
+      "patterns": [
+        "You're smart",
+        "You're funny",
+        "You're helpful",
+        "I like talking to you"
+      ],
+      "responses": [
+        "Thank you!",
+        "I'm glad I could help!",
+        "That's very kind of you.",
+        "I'm happy to hear that!"
+      ]
+    },
+    {
+      "tag": "small_talk_motivation",
+      "patterns": [
+        "I'm feeling down",
+        "I need motivation",
+        "I'm sad",
+        "Cheer me up"
+      ],
+      "responses": [
+        "Keep your head up!",
+        "You're stronger than you think.",
+        "Every day is a new opportunity.",
+        "Stay positive, good things are coming your way."
+      ]
+    },
+    {
+      "tag": "small_talk_health",
+      "patterns": [
+        "How are you?",
+        "How have you been?",
+        "Are you okay?",
+        "Hope you're doing well"
+      ],
+      "responses": [
+        "I'm doing great, thank you!",
+        "I'm just a program, but I'm functioning perfectly!",
+        "All systems are go!"
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Can you help me?",
+        "I need help",
+        "Could you assist me?",
+        "Help me please"
+      ],
+      "responses": [
+        "Of course! What do you need help with?",
+        "I'm here to assist you. How can I help?",
+        "Sure, what do you need help with?"
+      ]
+    },
+    {
+      "tag": "time",
+      "patterns": [
+        "What time is it?",
+        "Can you tell me the time?",
+        "Do you know the time?",
+        "What's the current time?"
+      ],
+      "responses": [
+        "I can't tell time, but you can check your device's clock!",
+        "Sorry, I can't provide the current time.",
+        "Please check your local time on a device."
+      ]
+    },
+    {
+      "tag": "date",
+      "patterns": [
+        "What's the date today?",
+        "Can you tell me today's date?",
+        "Do you know the date?",
+        "What's the current date?"
+      ],
+      "responses": [
+        "I don't have a calendar, but you can check the date on your device!",
+        "Sorry, I can't provide the current date.",
+        "Please check today's date on a device."
+      ]
+    }
+  ]
+}
